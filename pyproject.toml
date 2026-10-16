@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "galaxy-mass-estimation"
+version = "0.1.0"
+description = "Galaxy cluster mass regression with Fourier Neural Operators and ACT+Planck maps"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "torch"]
+
+[project.optional-dependencies]
+analysis = ["matplotlib", "jupyterlab"]
+data = ["pandas", "pixell", "tqdm", "scikit-learn", "astropy", "healpy", "astroquery", "scipy", "requests"]
+dev = ["black[jupyter]", "playwright"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88
+include = '\.(py|ipynb)$'
+extend-exclude = '/\.ipynb_checkpoints/'

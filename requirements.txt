@@ -1,0 +1,2 @@
+# Install from the repository root. Versions of the original runs were not pinned.
+-e .[analysis,data]

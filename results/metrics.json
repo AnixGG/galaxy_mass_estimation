@@ -1,0 +1,92 @@
+[
+  {
+    "model": "cnn",
+    "variant": "normalized_augmented",
+    "path": "results/cnn/normalized_augmented",
+    "n_test": 2894,
+    "epochs": 100,
+    "mae_dex": 0.15998059224386255,
+    "rmse_dex": 0.1909240475300019
+  },
+  {
+    "model": "fno_base",
+    "variant": "normalized",
+    "path": "results/fno_base/normalized",
+    "n_test": 1994,
+    "epochs": 100,
+    "mae_dex": 0.08762404341306705,
+    "rmse_dex": 0.11418061413908893
+  },
+  {
+    "model": "fno_base",
+    "variant": "raw",
+    "path": "results/fno_base/raw",
+    "n_test": 1994,
+    "epochs": 100,
+    "mae_dex": 0.11053144350393844,
+    "rmse_dex": 0.15203941023980022
+  },
+  {
+    "model": "fno_large",
+    "variant": "normalized_augmented",
+    "path": "results/fno_large/normalized_augmented",
+    "n_test": 2894,
+    "epochs": 100,
+    "mae_dex": 0.08452117737091733,
+    "rmse_dex": 0.10606867746310547
+  },
+  {
+    "model": "fno_less",
+    "variant": "normalized",
+    "path": "results/fno_less/normalized",
+    "n_test": 1994,
+    "epochs": 100,
+    "mae_dex": 0.09108478182117821,
+    "rmse_dex": 0.11600687404602819
+  },
+  {
+    "model": "fno_less",
+    "variant": "normalized_augmented",
+    "path": "results/fno_less/normalized_augmented",
+    "n_test": 2894,
+    "epochs": 100,
+    "mae_dex": 0.0934112515884922,
+    "rmse_dex": 0.11920390921800735
+  },
+  {
+    "model": "fno_less",
+    "variant": "raw",
+    "path": "results/fno_less/raw",
+    "n_test": 1994,
+    "epochs": 100,
+    "mae_dex": 0.08589248553501327,
+    "rmse_dex": 0.10927854127323731
+  },
+  {
+    "model": "fno_wide",
+    "variant": "normalized",
+    "path": "results/fno_wide/normalized",
+    "n_test": 1994,
+    "epochs": 100,
+    "mae_dex": 0.08986780716997451,
+    "rmse_dex": 0.11661768297179154
+  },
+  {
+    "model": "fno_wide",
+    "variant": "normalized_augmented",
+    "path": "results/fno_wide/normalized_augmented",
+    "n_test": 2894,
+    "epochs": 100,
+    "mae_dex": 0.08490885065581441,
+    "rmse_dex": 0.10745945191452963
+  },
+  {
+    "model": "fno_wide",
+    "variant": "raw",
+    "path": "results/fno_wide/raw",
+    "n_test": 1994,
+    "epochs": 100,
+    "mae_dex": 0.09555425087630809,
+    "rmse_dex": 0.12808172226378534
+  }
+]

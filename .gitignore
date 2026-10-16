@@ -1,4 +1,22 @@
-data processing/
-dataset/
+# Local source maps, prepared images and model weights
+/data/raw/
+/data/processed/
+/results/exploration/
+*.pt
+*.pth
+*.ckpt
+
+# Python and notebook caches
 .ipynb_checkpoints/
 __pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local editor and operating system files
+.DS_Store
+.idea/
